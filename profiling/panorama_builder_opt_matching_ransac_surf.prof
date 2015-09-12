@@ -1,0 +1,292 @@
+         34246254 function calls in 54.550 seconds
+
+   Ordered by: cumulative time, call count
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.004    0.004   54.550   54.550 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\facade.py:20(build)
+        1    0.002    0.002   54.546   54.546 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\facade.py:34(stitch)
+        2    0.000    0.000   40.971   20.486 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\surf\detector.py:87(extract_features)
+        2    0.000    0.000   40.957   20.478 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\surf\detector.py:55(extract)
+        2    0.014    0.007   19.804    9.902 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\surf\detector.py:194(__build_descriptors)
+     9588    0.086    0.000   19.787    0.002 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\surf\descriptor.py:58(build_by_integral)
+        2    2.560    1.280   17.425    8.713 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\surf\detector.py:157(__detect_features)
+     9588    8.412    0.001   16.179    0.002 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\surf\descriptor.py:122(__build_descriptor)
+        1    7.646    7.646   10.130   10.130 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\surf\matching.py:21(match)
+  2890584    7.615    0.000   10.100    0.000 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\surf\detector.py:132(__is_maximum)
+  4162512    4.116    0.000    4.116    0.000 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\surf\detector.py:144(__is_not_outlier)
+   344616    0.478    0.000    3.650    0.000 D:\Programs\Python-2.7.6\lib\site-packages\numpy\core\fromnumeric.py:1631(sum)
+     9588    0.919    0.000    3.475    0.000 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\surf\descriptor.py:80(__find_orientation)
+        1    0.195    0.195    3.388    3.388 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\estimation\ransac.py:46(estimate)
+   377885    2.948    0.000    2.948    0.000 {method 'reduce' of 'numpy.ufunc' objects}
+   344616    0.151    0.000    2.931    0.000 D:\Programs\Python-2.7.6\lib\site-packages\numpy\core\_methods.py:31(_sum)
+   325992    0.508    0.000    1.857    0.000 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\surf\tools.py:83(nd_round)
+   162996    1.715    0.000    1.715    0.000 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\mathtools\functions.py:4(gaussian)
+     7046    0.114    0.000    1.676    0.000 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\transformations\homography.py:31(normalized_dlt)
+        2    0.006    0.003    1.644    0.822 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\surf\detector.py:93(__build_resp_layers)
+       24    0.230    0.010    1.638    0.068 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\surf\detector.py:115(__build_response)
+        2    0.000    0.000    1.421    0.710 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\cvtools\integral.py:11(__init__)
+        2    1.190    0.595    1.417    0.708 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\cvtools\imgtools.py:46(ndarray_symmetric_ext)
+      224    1.290    0.006    1.290    0.006 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\cvtools\integral.py:55(nd_box_integral)
+    14120    0.018    0.000    1.137    0.000 D:\Programs\Python-2.7.6\lib\site-packages\numpy\core\fromnumeric.py:803(argsort)
+    14120    1.119    0.000    1.119    0.000 {method 'argsort' of 'numpy.ndarray' objects}
+  2742130    0.821    0.000    1.088    0.000 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\surf\detector.py:139(<genexpr>)
+   153410    0.169    0.000    0.814    0.000 D:\Programs\Python-2.7.6\lib\site-packages\numpy\lib\function_base.py:3832(append)
+   325992    0.195    0.000    0.806    0.000 D:\Programs\Python-2.7.6\lib\site-packages\numpy\core\fromnumeric.py:2633(round_)
+    19176    0.169    0.000    0.781    0.000 D:\Programs\Python-2.7.6\lib\site-packages\numpy\ma\core.py:2638(__new__)
+  2473766    0.742    0.000    0.742    0.000 {range}
+    19176    0.087    0.000    0.738    0.000 D:\Programs\Python-2.7.6\lib\site-packages\numpy\ma\core.py:3452(filled)
+       24    0.133    0.006    0.692    0.029 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\cvtools\integral.py:114(nd_dxy)
+   205272    0.690    0.000    0.690    0.000 {numpy.core._dotblas.dot}
+     7046    0.038    0.000    0.682    0.000 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\transformations\homography.py:15(dlt)
+  4162532    0.622    0.000    0.648    0.000 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\surf\detector.py:180(<genexpr>)
+   325992    0.612    0.000    0.612    0.000 {method 'round' of 'numpy.ndarray' objects}
+   361225    0.606    0.000    0.606    0.000 {method 'astype' of 'numpy.ndarray' objects}
+        2    0.000    0.000    0.536    0.268 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\surf\detector.py:188(__scale_space_refinement)
+        2    0.213    0.106    0.535    0.268 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\surf\refinement.py:76(refine)
+   319757    0.499    0.000    0.499    0.000 {numpy.core.multiarray.array}
+     7046    0.376    0.000    0.491    0.000 D:\Programs\Python-2.7.6\lib\site-packages\numpy\linalg\linalg.py:1225(svd)
+    19176    0.183    0.000    0.478    0.000 D:\Programs\Python-2.7.6\lib\site-packages\numpy\ma\core.py:2788(__array_finalize__)
+  1722616    0.473    0.000    0.473    0.000 {max}
+   162996    0.257    0.000    0.429    0.000 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\cvtools\integral.py:84(nd_haar_x)
+    14093    0.211    0.000    0.407    0.000 D:\Programs\Python-2.7.6\lib\site-packages\numpy\linalg\linalg.py:455(inv)
+   162996    0.223    0.000    0.380    0.000 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\cvtools\integral.py:94(nd_haar_y)
+   153410    0.364    0.000    0.364    0.000 {numpy.core.multiarray.concatenate}
+       24    0.079    0.003    0.358    0.015 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\cvtools\integral.py:123(nd_dyy)
+       24    0.079    0.003    0.357    0.015 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\cvtools\integral.py:105(nd_dxx)
+     7046    0.010    0.000    0.345    0.000 D:\Programs\Python-2.7.6\lib\site-packages\numpy\core\fromnumeric.py:2737(std)
+    14092    0.204    0.000    0.337    0.000 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\mathtools\points.py:46(get_distances)
+     7046    0.032    0.000    0.335    0.000 D:\Programs\Python-2.7.6\lib\site-packages\numpy\core\_methods.py:123(_std)
+   323453    0.317    0.000    0.317    0.000 {method 'reshape' of 'numpy.ndarray' objects}
+  2890584    0.315    0.000    0.315    0.000 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\surf\detector.py:51(threshold)
+    56369    0.190    0.000    0.312    0.000 {map}
+   167502    0.133    0.000    0.311    0.000 D:\Programs\Python-2.7.6\lib\site-packages\numpy\core\numeric.py:464(asanyarray)
+     7046    0.055    0.000    0.309    0.000 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\estimation\ransac.py:171(__get_noncollinear_sample_points)
+    19178    0.308    0.000    0.308    0.000 {numpy.core.multiarray.copyto}
+     7046    0.151    0.000    0.297    0.000 D:\Programs\Python-2.7.6\lib\site-packages\numpy\core\_methods.py:77(_var)
+    19176    0.219    0.000    0.284    0.000 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\surf\tools.py:79(extend_dim)
+   487923    0.283    0.000    0.283    0.000 {isinstance}
+    19176    0.134    0.000    0.278    0.000 D:\Programs\Python-2.7.6\lib\site-packages\numpy\ma\core.py:2763(_update_from)
+  3006063    0.275    0.000    0.275    0.000 {abs}
+    14092    0.073    0.000    0.273    0.000 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\transformations\homography.py:71(similarity_transform_matr)
+    14092    0.182    0.000    0.182    0.000 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\mathtools\points.py:33(nd_to_cartesian)
+   251252    0.180    0.000    0.180    0.000 {getattr}
+    21204    0.130    0.000    0.175    0.000 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\mathtools\points.py:55(are_noncollinear)
+     7046    0.029    0.000    0.136    0.000 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\transformations\homography.py:85(_build_matrix_A)
+    14092    0.007    0.000    0.130    0.000 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\mathtools\points.py:52(ndarray2d_to_list)
+    38352    0.130    0.000    0.130    0.000 {numpy.core.multiarray.zeros}
+    19176    0.014    0.000    0.127    0.000 {method 'any' of 'numpy.ndarray' objects}
+        2    0.000    0.000    0.117    0.058 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\surf\detector.py:206(__save_responses_to_files)
+       24    0.116    0.005    0.116    0.005 {cv2.imwrite}
+    19176    0.009    0.000    0.113    0.000 D:\Programs\Python-2.7.6\lib\site-packages\numpy\core\_methods.py:37(_any)
+    92288    0.067    0.000    0.106    0.000 D:\Programs\Python-2.7.6\lib\logging\__init__.py:1343(isEnabledFor)
+     9588    0.046    0.000    0.101    0.000 D:\Programs\Python-2.7.6\lib\site-packages\numpy\linalg\linalg.py:1924(norm)
+   162996    0.077    0.000    0.099    0.000 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\surf\descriptor.py:141(<genexpr>)
+    19176    0.097    0.000    0.097    0.000 {method 'copy' of 'numpy.ndarray' objects}
+    19176    0.042    0.000    0.092    0.000 D:\Programs\Python-2.7.6\lib\site-packages\numpy\ma\core.py:389(_check_fill_value)
+    47800    0.077    0.000    0.083    0.000 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\surf\refinement.py:154(__get_variables)
+    21139    0.048    0.000    0.082    0.000 D:\Programs\Python-2.7.6\lib\site-packages\numpy\linalg\linalg.py:139(_commonType)
+    14092    0.006    0.000    0.075    0.000 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\mathtools\points.py:16(list_to_cartesian)
+     7080    0.053    0.000    0.072    0.000 D:\Programs\Python-2.7.6\lib\random.py:291(sample)
+    21139    0.025    0.000    0.069    0.000 D:\Programs\Python-2.7.6\lib\site-packages\numpy\linalg\linalg.py:106(_makearray)
+    56368    0.056    0.000    0.064    0.000 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\transformations\homography.py:76(<lambda>)
+    30728    0.024    0.000    0.056    0.000 D:\Programs\Python-2.7.6\lib\site-packages\numpy\core\numeric.py:394(asarray)
+   415746    0.052    0.000    0.055    0.000 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\cvtools\imgtools.py:77(<genexpr>)
+   326000    0.053    0.000    0.053    0.000 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\cvtools\integral.py:36(haar_x_resp)
+   325992    0.053    0.000    0.053    0.000 {method 'has_key' of 'dict' objects}
+   415746    0.049    0.000    0.051    0.000 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\cvtools\imgtools.py:74(<genexpr>)
+   326000    0.050    0.000    0.050    0.000 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\cvtools\integral.py:40(haar_y_resp)
+    11950    0.028    0.000    0.048    0.000 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\surf\refinement.py:71(du2_dyds)
+    56368    0.047    0.000    0.047    0.000 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\mathtools\points.py:9(to_cartesian)
+    11950    0.026    0.000    0.047    0.000 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\surf\refinement.py:58(du2_ds2)
+    11950    0.026    0.000    0.047    0.000 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\surf\refinement.py:66(du2_dxds)
+    11950    0.019    0.000    0.041    0.000 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\surf\refinement.py:46(du_ds)
+    22654    0.032    0.000    0.041    0.000 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\surf\refinement.py:142(__is_not_outlier)
+    28184    0.040    0.000    0.040    0.000 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\transformations\homography.py:96(_build_matrix_Ai)
+   311810    0.038    0.000    0.040    0.000 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\cvtools\imgtools.py:80(<genexpr>)
+    92288    0.039    0.000    0.039    0.000 D:\Programs\Python-2.7.6\lib\logging\__init__.py:1329(getEffectiveLevel)
+   311810    0.037    0.000    0.039    0.000 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\cvtools\imgtools.py:83(<genexpr>)
+    14092    0.006    0.000    0.037    0.000 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\mathtools\points.py:13(list_to_homogeneous)
+    40411    0.035    0.000    0.035    0.000 {hasattr}
+    95880    0.035    0.000    0.035    0.000 {method 'update' of 'dict' objects}
+    28184    0.026    0.000    0.034    0.000 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\utils\listutils.py:14(mean)
+    51866    0.019    0.000    0.032    0.000 D:\Programs\Python-2.7.6\lib\site-packages\numpy\linalg\linalg.py:111(isComplexType)
+     7046    0.024    0.000    0.030    0.000 D:\Programs\Python-2.7.6\lib\site-packages\numpy\core\_methods.py:43(_count_reduce_items)
+    87097    0.029    0.000    0.029    0.000 {issubclass}
+    14093    0.019    0.000    0.028    0.000 D:\Programs\Python-2.7.6\lib\site-packages\numpy\linalg\linalg.py:209(_assertNdSquareness)
+    19176    0.027    0.000    0.027    0.000 D:\Programs\Python-2.7.6\lib\site-packages\numpy\ma\core.py:3359(_get_data)
+    21138    0.011    0.000    0.027    0.000 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\utils\listutils.py:11(unzip)
+    42277    0.027    0.000    0.027    0.000 {zip}
+    21139    0.020    0.000    0.023    0.000 D:\Programs\Python-2.7.6\lib\site-packages\numpy\linalg\linalg.py:198(_assertRankAtLeast2)
+    21139    0.023    0.000    0.023    0.000 D:\Programs\Python-2.7.6\lib\site-packages\numpy\linalg\linalg.py:101(get_linalg_error_extobj)
+    11950    0.021    0.000    0.022    0.000 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\surf\refinement.py:62(du2_dxdy)
+    28185    0.014    0.000    0.019    0.000 D:\Programs\Python-2.7.6\lib\site-packages\numpy\linalg\linalg.py:124(_realType)
+    11950    0.018    0.000    0.019    0.000 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\surf\refinement.py:38(du_dx)
+    11950    0.017    0.000    0.018    0.000 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\surf\refinement.py:50(du2_dx2)
+    11950    0.016    0.000    0.017    0.000 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\surf\refinement.py:54(du2_dy2)
+        1    0.000    0.000    0.016    0.016 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\surf\matching.py:13(__init__)
+        1    0.002    0.002    0.016    0.016 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\surf\matching.py:137(__preparative_sorting)
+        1    0.000    0.000    0.016    0.016 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\cvtools\blending.py:3(pyramid_blending)
+    11950    0.014    0.000    0.015    0.000 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\surf\refinement.py:42(du_dy)
+        1    0.015    0.015    0.015    0.015 {cv2.warpPerspective}
+        2    0.000    0.000    0.014    0.007 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\surf\detector.py:28(__init__)
+        2    0.012    0.006    0.014    0.007 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\cvtools\imgtools.py:98(ndarray_normalize_image)
+    14120    0.010    0.000    0.014    0.000 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\surf\descriptor.py:44(laplacian_sign)
+   107550    0.013    0.000    0.013    0.000 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\surf\refinement.py:30(responses)
+        1    0.007    0.007    0.013    0.013 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\surf\matching.py:64(sort_descriptors)
+     7046    0.013    0.000    0.013    0.000 {numpy.core.multiarray.where}
+    56368    0.011    0.000    0.011    0.000 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\mathtools\points.py:5(to_homogeneous)
+    82420    0.010    0.000    0.011    0.000 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\cvtools\imgtools.py:68(<genexpr>)
+    42276    0.011    0.000    0.011    0.000 {sum}
+    82420    0.010    0.000    0.011    0.000 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\cvtools\imgtools.py:71(<genexpr>)
+    98823    0.011    0.000    0.011    0.000 {len}
+        2    0.000    0.000    0.011    0.005 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\cvtools\imgtools.py:180(lapl_pyramid)
+    88289    0.011    0.000    0.011    0.000 {method 'append' of 'list' objects}
+    82420    0.010    0.000    0.010    0.000 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\cvtools\imgtools.py:62(<genexpr>)
+    82420    0.010    0.000    0.010    0.000 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\cvtools\imgtools.py:65(<genexpr>)
+    70460    0.010    0.000    0.010    0.000 {math.sqrt}
+     9588    0.009    0.000    0.009    0.000 {cv2.cv.FastArctan}
+     9588    0.009    0.000    0.009    0.000 {method 'ravel' of 'numpy.ndarray' objects}
+    34666    0.008    0.000    0.008    0.000 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\surf\descriptor.py:36(feature)
+        2    0.008    0.004    0.008    0.004 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\surf\detector.py:201(__clear_unnecessary_data)
+       15    0.007    0.000    0.007    0.000 {cv2.pyrUp}
+        2    0.000    0.000    0.007    0.004 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\cvtools\imgtools.py:184(lapl_pyramid_by_pyr)
+    14092    0.006    0.000    0.006    0.000 {math.log}
+       21    0.000    0.000    0.006    0.000 D:\Programs\Python-2.7.6\lib\logging\__init__.py:1140(info)
+       21    0.000    0.000    0.006    0.000 D:\Programs\Python-2.7.6\lib\logging\__init__.py:1250(_log)
+    28227    0.006    0.000    0.006    0.000 {method 'get' of 'dict' objects}
+     9588    0.006    0.000    0.006    0.000 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\surf\descriptor.py:31(__init__)
+     7046    0.005    0.000    0.005    0.000 D:\Programs\Python-2.7.6\lib\site-packages\numpy\linalg\linalg.py:219(_assertNoEmpty2d)
+        1    0.000    0.000    0.005    0.005 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\cvtools\imgtools.py:194(reconstruct_by_lapl_pyr)
+       21    0.000    0.000    0.005    0.000 D:\Programs\Python-2.7.6\lib\logging\__init__.py:1271(handle)
+       21    0.000    0.000    0.005    0.000 D:\Programs\Python-2.7.6\lib\logging\__init__.py:1303(callHandlers)
+       21    0.000    0.000    0.005    0.000 D:\Programs\Python-2.7.6\lib\logging\__init__.py:736(handle)
+       21    0.000    0.000    0.004    0.000 D:\Programs\Python-2.7.6\lib\logging\handlers.py:68(emit)
+        2    0.004    0.002    0.004    0.002 {cv2.integral}
+        1    0.000    0.000    0.004    0.004 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\cvtools\imgtools.py:202(crop_panorama)
+    28185    0.003    0.000    0.003    0.000 {method '__array_prepare__' of 'numpy.ndarray' objects}
+    28395    0.003    0.000    0.003    0.000 {method 'random' of '_random.Random' objects}
+    28320    0.003    0.000    0.003    0.000 {method 'add' of 'set' objects}
+        1    0.000    0.000    0.003    0.003 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\surf\matching.py:113(get_feature_matches)
+    14110    0.003    0.000    0.003    0.000 {min}
+       42    0.000    0.000    0.003    0.000 D:\Programs\Python-2.7.6\lib\logging\__init__.py:713(format)
+        2    0.000    0.000    0.003    0.002 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\cvtools\imgtools.py:172(gauss_pyramid)
+       10    0.003    0.000    0.003    0.000 {cv2.pyrDown}
+       42    0.000    0.000    0.003    0.000 D:\Programs\Python-2.7.6\lib\logging\__init__.py:451(format)
+      685    0.002    0.000    0.003    0.000 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\surf\matching.py:125(__get_feature_match)
+       10    0.003    0.000    0.003    0.000 {operator.sub}
+     9588    0.003    0.000    0.003    0.000 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\surf\descriptor.py:51(data)
+       42    0.002    0.000    0.002    0.000 D:\Programs\Python-2.7.6\lib\logging\__init__.py:311(getMessage)
+       21    0.000    0.000    0.002    0.000 D:\Programs\Python-2.7.6\lib\logging\__init__.py:931(emit)
+       21    0.000    0.000    0.002    0.000 D:\Programs\Python-2.7.6\lib\logging\__init__.py:839(emit)
+       21    0.000    0.000    0.002    0.000 D:\Programs\Python-2.7.6\lib\logging\handlers.py:146(shouldRollover)
+     9588    0.002    0.000    0.002    0.000 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\surf\descriptor.py:40(orientation)
+        5    0.002    0.000    0.002    0.000 {operator.add}
+        1    0.002    0.002    0.002    0.002 {cv2.findContours}
+        1    0.001    0.001    0.001    0.001 {cv2.medianBlur}
+        2    0.001    0.001    0.001    0.001 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\utils\listutils.py:7(subtraction)
+       21    0.000    0.000    0.001    0.000 D:\Programs\Python-2.7.6\lib\logging\__init__.py:1237(makeRecord)
+       21    0.000    0.000    0.001    0.000 D:\Programs\Python-2.7.6\lib\logging\__init__.py:242(__init__)
+     1370    0.001    0.000    0.001    0.000 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\surf\matching.py:131(__scale_feature)
+       21    0.000    0.000    0.001    0.000 D:\Programs\Python-2.7.6\lib\logging\__init__.py:828(flush)
+        1    0.000    0.000    0.000    0.000 {cv2.threshold}
+       42    0.000    0.000    0.000    0.000 D:\Programs\Python-2.7.6\lib\logging\__init__.py:404(formatTime)
+       21    0.000    0.000    0.000    0.000 {method 'flush' of 'file' objects}
+       21    0.000    0.000    0.000    0.000 {method 'seek' of 'file' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\cvtools\blending.py:20(merge_lapl_pyrs)
+       21    0.000    0.000    0.000    0.000 D:\Programs\Python-2.7.6\lib\logging\__init__.py:1216(findCaller)
+        2    0.000    0.000    0.000    0.000 {cv2.minMaxLoc}
+       42    0.000    0.000    0.000    0.000 D:\Programs\Python-2.7.6\lib\logging\__init__.py:693(acquire)
+       24    0.000    0.000    0.000    0.000 {method 'format' of 'unicode' objects}
+       21    0.000    0.000    0.000    0.000 D:\Programs\Python-2.7.6\lib\ntpath.py:196(basename)
+       21    0.000    0.000    0.000    0.000 {method 'write' of 'file' objects}
+       21    0.000    0.000    0.000    0.000 D:\Programs\Python-2.7.6\lib\ntpath.py:164(split)
+       42    0.000    0.000    0.000    0.000 D:\Programs\Python-2.7.6\lib\threading.py:146(acquire)
+       21    0.000    0.000    0.000    0.000 D:\Programs\Python-2.7.6\lib\threading.py:1152(currentThread)
+      224    0.000    0.000    0.000    0.000 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\cvtools\integral.py:28(original_width)
+       21    0.000    0.000    0.000    0.000 D:\Programs\Python-2.7.6\lib\ntpath.py:189(splitext)
+       42    0.000    0.000    0.000    0.000 D:\Programs\Python-2.7.6\lib\logging\__init__.py:700(release)
+       42    0.000    0.000    0.000    0.000 {time.strftime}
+       21    0.000    0.000    0.000    0.000 D:\Programs\Python-2.7.6\lib\genericpath.py:85(_splitext)
+        1    0.000    0.000    0.000    0.000 D:\Programs\Python-2.7.6\lib\threading.py:1130(__init__)
+      688    0.000    0.000    0.000    0.000 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\surf\matching.py:94(descriptor_set1)
+      687    0.000    0.000    0.000    0.000 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\surf\matching.py:98(descriptor_set2)
+       42    0.000    0.000    0.000    0.000 D:\Programs\Python-2.7.6\lib\threading.py:186(release)
+       15    0.000    0.000    0.000    0.000 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\cvtools\imgtools.py:226(aligned_images)
+       21    0.000    0.000    0.000    0.000 D:\Programs\Python-2.7.6\lib\ntpath.py:42(normcase)
+        2    0.000    0.000    0.000    0.000 D:\Programs\Python-2.7.6\lib\genericpath.py:15(exists)
+        2    0.000    0.000    0.000    0.000 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\surf\refinement.py:137(release_data)
+       42    0.000    0.000    0.000    0.000 {time.localtime}
+      224    0.000    0.000    0.000    0.000 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\cvtools\integral.py:32(original_height)
+        1    0.000    0.000    0.000    0.000 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\cvtools\imgtools.py:221(get_biggest_contour)
+        1    0.000    0.000    0.000    0.000 D:\Programs\Python-2.7.6\lib\threading.py:656(__init__)
+        2    0.000    0.000    0.000    0.000 {nt.stat}
+       21    0.000    0.000    0.000    0.000 D:\Programs\Python-2.7.6\lib\logging\__init__.py:153(getLevelName)
+        1    0.000    0.000    0.000    0.000 D:\Programs\Python-2.7.6\lib\site-packages\numpy\lib\shape_base.py:435(split)
+       42    0.000    0.000    0.000    0.000 D:\Programs\Python-2.7.6\lib\logging\__init__.py:445(usesTime)
+        2    0.000    0.000    0.000    0.000 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\mathtools\points.py:19(nd_to_homogeneous)
+       21    0.000    0.000    0.000    0.000 D:\Programs\Python-2.7.6\lib\logging\__init__.py:81(<lambda>)
+        1    0.000    0.000    0.000    0.000 D:\Programs\Python-2.7.6\lib\threading.py:541(Event)
+        1    0.000    0.000    0.000    0.000 D:\Programs\Python-2.7.6\lib\site-packages\numpy\core\fromnumeric.py:889(argmax)
+        1    0.000    0.000    0.000    0.000 D:\Programs\Python-2.7.6\lib\threading.py:560(__init__)
+        1    0.000    0.000    0.000    0.000 D:\Programs\Python-2.7.6\lib\site-packages\numpy\lib\shape_base.py:377(array_split)
+       21    0.000    0.000    0.000    0.000 {time.time}
+       63    0.000    0.000    0.000    0.000 {method 'rfind' of 'str' objects}
+       21    0.000    0.000    0.000    0.000 {method 'replace' of 'str' objects}
+       21    0.000    0.000    0.000    0.000 D:\Programs\Python-2.7.6\lib\ntpath.py:122(splitdrive)
+        1    0.000    0.000    0.000    0.000 D:\Programs\Python-2.7.6\lib\site-packages\numpy\core\fromnumeric.py:40(_wrapit)
+        1    0.000    0.000    0.000    0.000 D:\Programs\Python-2.7.6\lib\site-packages\numpy\core\fromnumeric.py:2058(amax)
+      128    0.000    0.000    0.000    0.000 {thread.get_ident}
+       42    0.000    0.000    0.000    0.000 {method 'find' of 'str' objects}
+       42    0.000    0.000    0.000    0.000 D:\Programs\Python-2.7.6\lib\logging\__init__.py:598(filter)
+       21    0.000    0.000    0.000    0.000 {sys._getframe}
+        2    0.000    0.000    0.000    0.000 D:\Programs\Python-2.7.6\lib\threading.py:241(Condition)
+       85    0.000    0.000    0.000    0.000 D:\Programs\Python-2.7.6\lib\threading.py:63(_note)
+       21    0.000    0.000    0.000    0.000 {method 'tell' of 'file' objects}
+       21    0.000    0.000    0.000    0.000 {method 'lower' of 'str' objects}
+       23    0.000    0.000    0.000    0.000 {method 'acquire' of 'thread.lock' objects}
+        1    0.000    0.000    0.000    0.000 D:\Programs\Python-2.7.6\lib\site-packages\numpy\core\_methods.py:25(_amax)
+        2    0.000    0.000    0.000    0.000 D:\Programs\Python-2.7.6\lib\threading.py:259(__init__)
+       21    0.000    0.000    0.000    0.000 D:\Programs\Python-2.7.6\lib\threading.py:967(name)
+        2    0.000    0.000    0.000    0.000 {thread.allocate_lock}
+        1    0.000    0.000    0.000    0.000 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\estimation\ransac.py:38(create_for_matches)
+        2    0.000    0.000    0.000    0.000 D:\Programs\Python-2.7.6\lib\site-packages\numpy\core\numeric.py:141(ones)
+        3    0.000    0.000    0.000    0.000 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\cvtools\imgtools.py:111(ndarray_to_grayscale)
+        1    0.000    0.000    0.000    0.000 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\estimation\ransac.py:24(__init__)
+        1    0.000    0.000    0.000    0.000 D:\Programs\Python-2.7.6\lib\threading.py:627(_newname)
+        1    0.000    0.000    0.000    0.000 D:\Programs\Python-2.7.6\lib\threading.py:575(set)
+        1    0.000    0.000    0.000    0.000 {cv2.approxPolyDP}
+        2    0.000    0.000    0.000    0.000 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\cvtools\imgtools.py:222(<lambda>)
+       21    0.000    0.000    0.000    0.000 {nt.getpid}
+        1    0.000    0.000    0.000    0.000 {cv2.arcLength}
+        1    0.000    0.000    0.000    0.000 {method 'cumsum' of 'numpy.ndarray' objects}
+        2    0.000    0.000    0.000    0.000 {method 'argmax' of 'numpy.ndarray' objects}
+        2    0.000    0.000    0.000    0.000 {cv2.contourArea}
+        1    0.000    0.000    0.000    0.000 D:\Programs\Python-2.7.6\lib\threading.py:399(notifyAll)
+        3    0.000    0.000    0.000    0.000 D:\Programs\Python-2.7.6\lib\site-packages\numpy\core\fromnumeric.py:447(swapaxes)
+        1    0.000    0.000    0.000    0.000 D:\Programs\Python-2.7.6\lib\threading.py:372(notify)
+        1    0.000    0.000    0.000    0.000 {method 'format' of 'str' objects}
+       22    0.000    0.000    0.000    0.000 {method 'release' of 'thread.lock' objects}
+        2    0.000    0.000    0.000    0.000 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\surf\refinement.py:21(__init__)
+        3    0.000    0.000    0.000    0.000 {method 'swapaxes' of 'numpy.ndarray' objects}
+        2    0.000    0.000    0.000    0.000 {numpy.core.multiarray.empty}
+        4    0.000    0.000    0.000    0.000 D:\Programs\Python-2.7.6\lib\threading.py:58(__init__)
+        3    0.000    0.000    0.000    0.000 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\facade.py:16(initial_images)
+        2    0.000    0.000    0.000    0.000 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\surf\detector.py:47(descriptors)
+        1    0.000    0.000    0.000    0.000 D:\Programs\Python-2.7.6\lib\threading.py:299(_is_owned)
+        4    0.000    0.000    0.000    0.000 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\surf\detector.py:39(features)
+        2    0.000    0.000    0.000    0.000 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\estimation\ransac.py:139(dist_threshold)
+        2    0.000    0.000    0.000    0.000 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\surf\refinement.py:34(refined_features)
+        1    0.000    0.000    0.000    0.000 D:\Programs\Python-2.7.6\lib\threading.py:789(_set_ident)
+        1    0.000    0.000    0.000    0.000 {method 'keys' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {divmod}
+        1    0.000    0.000    0.000    0.000 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\estimation\ransac.py:147(adaptive_threshold_enabled)
+        1    0.000    0.000    0.000    0.000 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\estimation\ransac.py:163(threshold_change_frequency)
+        1    0.000    0.000    0.000    0.000 D:\Programs\Python-2.7.6\lib\threading.py:1143(_set_daemon)
+        1    0.000    0.000    0.000    0.000 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\estimation\ransac.py:127(homography)
+        1    0.000    0.000    0.000    0.000 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\estimation\ransac.py:135(matches_count)
+        1    0.000    0.000    0.000    0.000 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\estimation\ransac.py:131(inliers)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\surf\matching.py:102(matches)
+        1    0.000    0.000    0.000    0.000 C:\Users\Voldemar\Documents\eclipse-workspace\ImageStitching\stitching\estimation\ransac.py:155(threshold_change_step)
+
+
